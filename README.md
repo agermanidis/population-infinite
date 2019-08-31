@@ -10,11 +10,7 @@ _This syllabus is a work-in-progress!_
 
 ### Instructor
 
-Anastasis Germanidis
-
-### Discussion
-
-We will be using a [Discord](https://discord.gg/b3AphyH) server as our communication channel for the course.
+[Dan Oved](https://www.danioved.com) and [Anastasis Germanidis](https://agermanidis.com/)
 
 ## Description
 
@@ -32,9 +28,9 @@ __In class lecture:__  An overview of the course; a brief history of identity of
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
 
-__In class tutorial:__ Automating browser activity using Puppeteer.
+__In class tutorial:__ Automating browser activity, part I.
 
-__Assignment:__ Identify a surveillance apparatus that tracks your activity (online or offline) and create an intervention that confuses it.
+__Assignment:__ Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
 
 __References__:
 
@@ -53,7 +49,7 @@ __References__:
 
 __In class lecture:__ What happens when identity becomes reproducible? Case studies of online sock-puppetry, astro-turfing, and Sybil attacks. A future look towards the implications of AI-based impersonation.
 
-__In class tutorial__: GAN tutorial using Runway.
+__In class tutorial__: Automating browser activity, part II.
 
 __Assignment:__ Create a simulated version of yourself that takes over one task (social, creative, or professional) of your daily life.
 
@@ -77,10 +73,6 @@ __References__:
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
 
-__In class tutorial:__ TBD
-
-__Assignment__: Build a tool that helps you establish to a new routine or change a personality trait.
-
 __References__:
 
 * [Julian Jaynes: The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072)
@@ -99,7 +91,7 @@ __References__:
 
 __In class lecture:__ Can we live with many identities, and what do they allow us? A history of personal pseudonyms and collective pseudonyms; a survey of the cypherpunk movement and intellectual foundations of cryptocurrencies. 
 
-__In class exercise:__  TBD
+__In class tutorial:__ Experimenting with machine learning-based generation tools using Runway.
 
 __References__:
 
