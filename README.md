@@ -83,6 +83,8 @@ __References__:
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
 
+__Assignment:__ Write a proposal (what, why, how) for your final project. Prepare to present and discuss at the beginning of next class.
+
 __Reading for next week__:
 * Marco Deseriis, Improper Names, Chapter 3 (Link in Google Drive)
 * [Lisa Nakamura, "Race In/For Cyberspace: Identity Tourism and Racial Passing on the Internet"](https://pdfs.semanticscholar.org/3531/da9329d2b7158bd697e1aa8ef073f78de6fb.pdf?_ga=2.183451366.1956539579.1567370805-2117625465.1567370805)
@@ -105,6 +107,8 @@ __References__:
 __In class lecture:__ Can we live with many identities, and what do they allow us? A history of personal pseudonyms and collective pseudonyms; a survey of the cypherpunk movement and intellectual foundations of cryptocurrencies. 
 
 __In class tutorial:__ Experimenting with machine learning-based generation tools using Runway.
+
+__Assignment:__ Finish your final project.
 
 __References__:
 
