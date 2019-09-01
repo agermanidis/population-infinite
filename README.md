@@ -4,7 +4,7 @@
 
 __6-week course at [NYU ITP](https://itp.nyu.edu/) Fall 2019 semester__
 
-__Wed. 6:30-9:25 pm__ 
+__Wednesdays 6:30-9:25 pm, Room 370J_408__ 
 
 _This syllabus is a work-in-progress!_
 
@@ -16,7 +16,15 @@ _This syllabus is a work-in-progress!_
 
 __"Being a person is not the essence of humanity, only – as the world's history suggests – one of its masks." -- John Gray__
 
-We are currently living in a society that operates under the principle that one body equals one agent, one vantage point, one identity. But near-future technologies may be creating a future in which the notion of a single personal identity becomes outdated. That future includes: machine learning techniques that make emulating the style and behavior of other people fast and easy; widely available AR/VR headsets that get people to identify with however many bodies they choose, instead of those they were born with; cryptocurrencies enabling the adoption of pseudonymous economic identities to transact pseudonymously across the planet. This is a course where we get to explore and anticipate the utopian and dystopian aspects of this weird future of identity by designing weekly interventions for obfuscating, simulating, multiplying, and merging ourselves online and offline.
+We are currently living in a society that operates under the principle that one body equals one agent, one vantage point, one identity. But near-future technologies may be creating a future in which the notion of a single personal identity becomes outdated. That future includes: machine learning techniques that make emulating the style and behavior of other people fast and easy; widely available AR/VR headsets that get people to identify with however many bodies they choose, instead of those they were born with; cryptocurrencies enabling the adoption of pseudonymous economic identities to transact pseudonymously across the planet. This is a course where we get to explore and anticipate the utopian and dystopian aspects of this weird future of identity by designing weekly interventions for obfuscating, simulating, multiplying, and merging ourselves online and offline. 
+
+## Evaluation Criteria
+
+| Criterion     |    Percentage |
+|---------------|--------------:|
+| Participation |           30% |
+| Assignments   | 3 x 10% = 30% |
+| Final Project |           60% |
 
 ## Schedule
 
@@ -129,3 +137,29 @@ __References__:
 ### Week 6: Finals [October 9, 2019] ✌️
 
 __In class:__ Final project critiques
+
+## Statements
+
+#### STATEMENT OF ACADEMIC INTEGRITY
+
+Plagiarism is presenting someone else’s work as though it were your own. More specifically, plagiarism is to present as your own: A sequence of words quoted without quotation marks from another writer or a paraphrased passage from another writer’s work or facts, ideas or images composed by someone else.
+
+#### STATEMENT OF PRINCIPLE
+
+The core of the educational experience at the Tisch School of the Arts is the creation of original academic and artistic work by students for the critical review of faculty members.  It is therefore of the utmost importance that students at all times provide their instructors with an accurate sense of their current abilities and knowledge in order to receive appropriate constructive criticism and advice.  Any attempt to evade that essential, transparent transaction between instructor and student through plagiarism or cheating is educationally self-defeating and a grave violation of Tisch School of the Arts community standards.  For all the details on plagiarism, please refer to page 10 of the Tisch School of the Arts, Policies and Procedures Handbook, which can be found online at: http://students.tisch.nyu.edu/page/home.html
+
+#### STATEMENT ON ACCESSIBILITY
+
+Please feel free to make suggestions to your instructor about ways in which this class could become more accessible to you.  Academic accommodations are available for students with documented disabilities. Please contact the Moses Center for Students with Disabilities at 212 998-4980 for further information.
+
+#### STATEMENT ON COUNSELING AND WELLNESS
+
+Your health and safety are a priority at NYU. If you experience any health or mental health issues during this course, we encourage you to utilize the support services of the 24/7 NYU Wellness Exchange 212-443-9999. Also, all students who may require an academic accommodation due to a qualified disability, physical or mental, please register with the Moses Center 212-998-4980. Please let your instructor know if you need help connecting to these resources.
+
+#### STATEMENT ON USE OF ELECTRONIC DEVICES
+
+Laptops will be an essential part of the course and may be used in class during workshops and for taking notes in lecture. Laptops must be closed during class discussions and student presentations.  Phone use in class is strictly prohibited unless directly related to a presentation of your own work or if you are asked to do so as part of the curriculum.
+
+#### STATEMENT ON TITLE IX
+
+Tisch School of the Arts to dedicated to providing its students with a learning environment that is rigorous, respectful, supportive and nurturing so that they can engage in the free exchange of ideas and commit themselves fully to the study of their discipline. To that end Tisch is committed to enforcing University policies prohibiting all forms of sexual misconduct as well as discrimination on the basis of sex and gender.  Detailed information regarding these policies and the resources that are available to students through the Title IX office can be found by using the following link: [Title IX at NYU](https://www.nyu.edu/about/policies-guidelines-compliance/equal-opportunity/title9.html).
