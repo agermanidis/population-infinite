@@ -24,6 +24,10 @@ We are currently living in a society that operates under the principle that one 
 
 __In class lecture:__  An overview of the course; a brief history of identity offline and online, from the invention of last names and identity cards to today's battles between real name policies and pseudonymity.
 
+__Readings for next week__:
+* [Kate Crawford, The Anxieties of Big Data](https://thenewinquiry.com/the-anxieties-of-big-data/)
+* James Scott, Seeing Like a State, Chapter 2 (Link in Google Drive)
+
 ### Week 2: Obfuscation [September 11, 2019] 🎩
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
@@ -31,6 +35,10 @@ __In class lecture:__ How can we trick systems of identification? A history of s
 __In class tutorial:__ Automating browser activity, part I.
 
 __Assignment:__ Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
+
+__Readings for next week__:
+* [Lauren McCarthy, Feeling at Home: Between Human and AI](https://immerse.news/feeling-at-home-between-human-and-ai-6047561e7f04)
+* [Max Read: How Much of the Internet Is Fake? Turns Out, a Lot of It, Actually.](http://nymag.com/intelligencer/2018/12/how-much-of-the-internet-is-fake.html)
 
 __References__:
 
@@ -53,6 +61,9 @@ __In class tutorial__: Automating browser activity, part II.
 
 __Assignment:__ Create a simulated version of yourself that takes over one task (social, creative, or professional) of your daily life.
 
+__Reading for next week__:
+* [Venkatesh Rao, Life Spirit Distillation](https://breakingsmart.substack.com/p/life-spirit-distillation)
+
 __References__:
 
 * [Alan Turing: Computing Machinery and Intelligence](https://mailchi.mp/ribbonfarm/the-world-is-not-enough-people)
@@ -67,11 +78,14 @@ __References__:
 * [Kyle McDonald: How to recognize fake AI-generated images](https://medium.com/@kcimc/how-to-recognize-fake-ai-generated-images-4d1f6f9a2842)
 * [seebotschat](https://www.youtube.com/watch?v=FkbBU1BiW8c)
 * [Francis Tseng: Humans of Simulated New York](https://frnsys.com/hosny/)
-* [Max Read: How Much of the Internet Is Fake? Turns Out, a Lot of It, Actually.](http://nymag.com/intelligencer/2018/12/how-much-of-the-internet-is-fake.html)
 
 ### Week 4: Self-Reinvention [September 25, 2019] 🔄
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
+
+__Reading for next week__:
+* Marco Deseriis, Improper Names, Chapter 3 (Link in Google Drive)
+* [Lisa Nakamura, "Race In/For Cyberspace: Identity Tourism and Racial Passing on the Internet"](https://pdfs.semanticscholar.org/3531/da9329d2b7158bd697e1aa8ef073f78de6fb.pdf?_ga=2.183451366.1956539579.1567370805-2117625465.1567370805)
 
 __References__:
 
@@ -85,7 +99,6 @@ __References__:
 * [Lauren McCarthy: SCRIPT](http://lauren-mccarthy.com/SCRIPT)
 * [Max Hawkins: Randomized Living](https://maxhawkins.me/work/randomized_living)
 * [Chris Landreth: Bingo](https://www.youtube.com/watch?v=4kACHU5eSwQ)
-
 
 ### Week 5: Multiplication [October 2, 2019] 👥
 
