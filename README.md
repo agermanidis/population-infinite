@@ -24,7 +24,7 @@ We are currently living in a society that operates under the principle that one 
 |---------------|--------------:|
 | Participation |           30% |
 | Assignments   | 3 x 10% = 30% |
-| Final Project |           60% |
+| Final Project |           40% |
 
 ## Schedule
 
