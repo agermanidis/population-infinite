@@ -42,7 +42,9 @@ __In class lecture:__ How can we trick systems of identification? A history of s
 
 __In class tutorial:__ Automating browser activity, part I.
 
-__Assignment:__ Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
+__Assignment:__ 
+  * Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
+  * Install node.js on your computer (download it [here](https://nodejs.org/en/download/)).  Verify it is installed by [opening the terminal](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/) and running the command `node -v`
 
 __Readings for next week__:
 * [Lauren McCarthy, Feeling at Home: Between Human and AI](https://immerse.news/feeling-at-home-between-human-and-ai-6047561e7f04)
