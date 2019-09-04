@@ -10,7 +10,7 @@ _This syllabus is a work-in-progress!_
 
 ### Instructors
 
-[Dan Oved](https://www.danioved.com) and [Anastasis Germanidis](https://agermanidis.com/) ([Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UU5hSV9lR3oxUVdNfGRlZmF1bHR8OTBjMTkxODk2NzU2Y2M3ODY2NmE3OTliMDVjNzM1ZjU))
+[Dan Oved](https://www.danioved.com) ([Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UUtPd1BqbEtRNXBvfGRlZmF1bHR8MDg1YzBmOWY3OGFiM2UyNGNmN2VlYmNkZGE2MDAyYjU)) and [Anastasis Germanidis](https://agermanidis.com/) ([Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UU5hSV9lR3oxUVdNfGRlZmF1bHR8OTBjMTkxODk2NzU2Y2M3ODY2NmE3OTliMDVjNzM1ZjU))
 
 ## Description
 
