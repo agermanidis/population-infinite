@@ -36,6 +36,9 @@ __Readings for next week__:
 * [Kate Crawford, The Anxieties of Big Data](https://thenewinquiry.com/the-anxieties-of-big-data/)
 * James Scott, Seeing Like a State, Chapter 2 (Link in Google Drive)
 
+__Assignment__:
+* Install node.js on your computer (download it [here](https://nodejs.org/en/download/)).  Verify it is installed by [opening the terminal](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/) and running the command `node -v`
+
 ### Week 2: Obfuscation [September 11, 2019] 🎩
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
@@ -44,7 +47,6 @@ __In class tutorial:__ Automating browser activity, part I.
 
 __Assignment:__ 
   * Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
-  * Install node.js on your computer (download it [here](https://nodejs.org/en/download/)).  Verify it is installed by [opening the terminal](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/) and running the command `node -v`
 
 __Readings for next week__:
 * [Lauren McCarthy, Feeling at Home: Between Human and AI](https://immerse.news/feeling-at-home-between-human-and-ai-6047561e7f04)
