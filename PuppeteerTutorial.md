@@ -319,7 +319,10 @@ async function program() {
     height: 720
   });
 
-  await loginToFacebook(page, "flumpjunk000@gmail.com", "@Awesome4321");
+  const email = "PUT_A_FACEBOOK_EMAIL_HERE";
+  const password = "PUT_THE_FACEBOOK_PASSWORD_HERE";
+
+  await loginToFacebook(page, email, password);
 
   console.log('opening messenger');
   await page.click('a[data-testid="left_nav_item_Messenger"]');
