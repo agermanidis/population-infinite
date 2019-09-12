@@ -4,6 +4,23 @@
 
 > [Puppeteer](https://github.com/GoogleChrome/puppeteer) is a [Node.js](https://nodejs.org/en/) library which provides a high-level API to control Chrome or Chromium
 
+## Useful reference links:
+
+* To get all the capabilities of Puppeteer, checkout [the readme,](https://github.com/GoogleChrome/puppeteer/blob/master/README.md), [the API docs](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md) or the nicely formatted [API reference](https://pptr.dev/).
+* Check out [the official Puppeteer examples](https://github.com/GoogleChrome/puppeteer/tree/master/examples), or try them by going to [https://try-puppeteer.appspot.com/](https://try-puppeteer.appspot.com/) and clicking the menu under "Run an Example"
+* For a good guide to dom selectors, check out the [Mozilla guide to CSS selectors.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) These are the same selectors you would use for selecting HTML elements with Puppeteer.
+* To better understand async/await syntax: watch the [Coding train video on async/await](https://www.youtube.com/watch?v=XO77Fib9tSI)
+
+## Useful tools:
+
+* To run a puppeteer tester from the browser, check out [the browser based Try Puppeteer tool](https://try-puppeteer.appspot.com/).  This can be useful to get up and running if you don't feel like working with node on your computer, or want to demo something to someone by just providing a link.  
+* Use [the Puppeteer Recorder](https://chrome.google.com/webstore/detail/puppeteer-recorder/djeegiggegleadkkbgopoonhjimgehda?hl=en) chrome extension to record actions when browsing and generate a Puppeteer script.
+
+## Useful libraries:
+
+* [Faker.js](https://github.com/marak/Faker.js/) is a tool for generating massive amounts of realistic fake data in Node.js and the browser.
+* [Darius Kazemi's Corpora,](https://github.com/dariusk/corpora) described as "a collection of static corpora (plural of "corpus") that are potentially useful in the creation of weird internet stuff." . This can be used as source of words for generating content.
+
 ## Prerequisites
 
 * [Download and install Node.js](https://nodejs.org/en/)
@@ -282,12 +299,6 @@ program();
 ```javascript
 
 const puppeteer = require('puppeteer');
-
-function randomElementFromArray(array) {
-  const randomIndex = Math.floor(Math.random() * array.length);
-
-  return array[randomIndex];
-}
 
 async function loginToFacebook(page, email, password) {
   await page.goto('https://www.facebook.com');
