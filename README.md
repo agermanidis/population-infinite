@@ -64,6 +64,14 @@ __References__:
 * [Patrick McKenzie: Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 * [Sophie Calle: The Address Book](https://www.newyorker.com/books/page-turner/sophie-calles-the-address-book-an-excerpt)
 * [Jill Magic: Evidence Locker](http://www.jillmagid.net/projects/evidence-locker-2)
+* [Obfuscation: A User’s Guide to Privacy and Protest](https://mitpress.mit.edu/books/obfuscation)
+* [Tor Browser](https://www.torproject.org)
+* [TrackMeNot](https://cs.nyu.edu/trackmenot/)
+* [Bayesian Flooding and Facebook Manipulation](http://www.kevinludlow.com/blog/1610/Bayesian_Flooding_and_Facebook_Manipulation_RD/)
+* [Anonymouth](https://github.com/psal/anonymouth)
+* [Stylometry](https://en.wikipedia.org/wiki/Stylometry)
+* [URME Surveillance](http://www.urmesurveillance.com/)
+* [Invisible](https://deweyhagborg.com/projects/invisible)
 
 ### Week 3: Simulation [September 18, 2019] 🤖
 
