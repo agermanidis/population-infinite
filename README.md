@@ -43,7 +43,7 @@ __Assignment__:
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
 
-__In class tutorial:__ Automating browser activity, part I.
+__In class tutorial:__ [Identity Simulation on the Web with Puppeteer](PuppeteerTutorial.md)
 
 __Assignment:__ 
   * Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
@@ -102,6 +102,8 @@ __References__:
 ### Week 4: Self-Reinvention [September 25, 2019] 🔄
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
+
+__Workshop:__ [Machine learning based text generation](https://github.com/oveddan/ml-text)
 
 __Assignment:__ Write a proposal (what, why, how) for your final project. Prepare to present and discuss at the beginning of next class.
 
