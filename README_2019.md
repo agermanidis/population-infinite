@@ -2,9 +2,11 @@
 
 # Population: Infinite ♾
 
-__6-week course at [NYU ITP](https://itp.nyu.edu/) Fall 2020 semester__
+__6-week course at [NYU ITP](https://itp.nyu.edu/) Fall 2019 semester__
 
-__Wednesdays 6:30-9:25 pm, on Zoom!__ 
+__Wednesdays 6:30-9:25 pm, Room 370J_408__ 
+
+_This syllabus is a work-in-progress!_
 
 ### Instructors
 
@@ -26,7 +28,7 @@ We are currently living in a society that operates under the principle that one 
 
 ## Schedule
 
-### Week 1: Introduction [September 2, 2020] 💥
+### Week 1: Introduction [September 4, 2019] 💥
 
 __In class lecture:__  An overview of the course; a brief history of identity offline and online, from the invention of last names and identity cards to today's battles between real name policies and pseudonymity.
 
@@ -37,14 +39,14 @@ __Readings for next week__:
 __Assignment__:
 * Install node.js on your computer (download it [here](https://nodejs.org/en/download/)).  Verify it is installed by [opening the terminal](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/) and running the command `node -v`
 
-### Week 2: Obfuscation [September 9, 2020] 🎩
+### Week 2: Obfuscation [September 11, 2019] 🎩
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
 
 __In class tutorial:__ [Identity Simulation on the Web with Puppeteer](PuppeteerTutorial.md)
 
 __Assignment:__ 
-  * Write a script (using Puppeteer or another framework) to automate one of your online social interactions.
+  * Identify a surveillance apparatus that tracks your activity (online or offline). Design a set of instructions for a procedure that confuses it, and perform those instructions. 
 
 __Readings for next week__:
 * [Lauren McCarthy, Feeling at Home: Between Human and AI](https://immerse.news/feeling-at-home-between-human-and-ai-6047561e7f04)
@@ -71,13 +73,13 @@ __References__:
 * [URME Surveillance](http://www.urmesurveillance.com/)
 * [Invisible](https://deweyhagborg.com/projects/invisible)
 
-### Week 3: Simulation [September 16, 2020] 🤖
+### Week 3: Simulation [September 18, 2019] 🤖
 
 __In class lecture:__ What happens when identity becomes reproducible? Case studies of online sock-puppetry, astro-turfing, and Sybil attacks. A future look towards the implications of AI-based impersonation.
 
-__In class tutorial__: Training a machine learning model using Runway.
+__In class tutorial__: Automating browser activity, part II.
 
-__Assignment:__ Create a dataset based on a portion your online activity, and train a [text-generation model (GPT-2) with it](https://medium.com/runwayml/creating-a-custom-gpt-2-slack-bot-with-runwaymls-hosted-models-c639fe135379).
+__Assignment:__ Create a simulated version of yourself that takes over one task (social, creative, or professional) of your daily life.
 
 __Reading for next week__:
 * [Venkatesh Rao, Life Spirit Distillation](https://breakingsmart.substack.com/p/life-spirit-distillation)
@@ -97,11 +99,13 @@ __References__:
 * [seebotschat](https://www.youtube.com/watch?v=FkbBU1BiW8c)
 * [Francis Tseng: Humans of Simulated New York](https://frnsys.com/hosny/)
 
-### Week 4: Self-Reinvention [September 23, 2020] 🔄
+### Week 4: Self-Reinvention [September 25, 2019] 🔄
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
 
-__Assignment:__ Create your own, 2020 interpretation of one of the performances discussed in this lecture.
+__Workshop:__ [Machine learning based text generation](https://github.com/oveddan/ml-text)
+
+__Assignment:__ Write a proposal (what, why, how) for your final project. Prepare to present and discuss at the beginning of next class.
 
 __Reading for next week__:
 * Marco Deseriis, Improper Names, Chapter 3 (Link in Google Drive)
@@ -120,11 +124,13 @@ __References__:
 * [Max Hawkins: Randomized Living](https://maxhawkins.me/work/randomized_living)
 * [Chris Landreth: Bingo](https://www.youtube.com/watch?v=4kACHU5eSwQ)
 
-### Week 5: Multiplication [September 30, 2020] 👥
+### Week 5: Multiplication [October 2, 2019] 👥
 
 __In class lecture:__ Can we live with many identities, and what do they allow us? A history of personal pseudonyms and collective pseudonyms; a survey of the cypherpunk movement and intellectual foundations of cryptocurrencies. 
 
-__Assignment:__ Create a tool or a performance based on any of the concepts and technical frameworks we've explored in the class.
+__In class tutorial:__ Experimenting with machine learning-based generation tools using Runway.
+
+__Assignment:__ Finish your final project.
 
 __References__:
 
@@ -142,7 +148,7 @@ __References__:
 * [Taylor Pearson: The Blockchain Man](https://www.ribbonfarm.com/2017/10/10/the-blockchain-man/)
 * [Lou Keep: The Meridian of Her Greatness](https://samzdat.com/2017/06/01/the-meridian-of-her-greatness/)
 
-### Week 6: Finals [October 7, 2020] ✌️
+### Week 6: Finals [October 9, 2019] ✌️
 
 __In class:__ Final project critiques
 
