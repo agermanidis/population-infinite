@@ -77,7 +77,7 @@ __In class lecture:__ What happens when identity becomes reproducible? Case stud
 
 __In class tutorial__: Training a machine learning model using Runway.
 
-__Assignment:__ Create a dataset based on a portion your online activity, and train a [text-generation model (GPT-2) with it](https://medium.com/runwayml/creating-a-custom-gpt-2-slack-bot-with-runwaymls-hosted-models-c639fe135379).
+__Assignment:__ Create a dataset based on a portion your online activity, and use that to train an image or text generation model on Runway.
 
 __Reading for next week__:
 * [Venkatesh Rao, Life Spirit Distillation](https://breakingsmart.substack.com/p/life-spirit-distillation)
@@ -100,6 +100,8 @@ __References__:
 ### Week 4: Self-Reinvention [September 23, 2020] 🔄
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
+
+__In class tutorial__: Live streaming on the web.
 
 __Assignment:__ Create your own, 2020 interpretation of one of the performances discussed in this lecture.
 
