@@ -87,31 +87,36 @@ npm i puppeteer
 Lets create our first program in Puppeteer.  In a file named `program.js`  add the following code:
 
 ```javascript
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
-async function program() {
-  // launch puppeteer
-  const browser = await puppeteer.launch();
+const browser = await puppeteer.launch();
 
-  // create a page
-  const page = await browser.newPage();
+// create a page
+const page = await browser.newPage();
 
-  // navigate to google.com
-  await page.goto('https://google.com');
-  // capture a screenshot
-  await page.screenshot({path: 'google.png'});
+// navigate to google.com
+await page.goto('https://google.com');
+// capture a screenshot
+await page.screenshot({path: 'google.png'});
 
-  // close the browser
-  await browser.close();
-}
-
-program();
+// close the browser
+await browser.close();
 ```
+
+## Running the program 
+
+### top level await
+
+The above program makes use of top-level `await` syntax.  Traditionally with node.js, code that uses
+`await` must be wrapped in an `async` function.  However, with Node version `v14.3.0` and above,
+you can run it in the 'top level' by adding the flag --harmony-top-level-await` to your node.js calls.
+
+### Run the program:
 
 Now, in ther terminal, run the program with:
 
 ```sh
-node program.js
+node --harmony-top-level-await program.js
 ```
 
 You should have a screenshot of google's homepage in the same folder this program was running.
@@ -156,17 +161,14 @@ await page.goto('https://google.com');
 Some basic actions that can be done with a page:
 
 ```javascript
+// wait for the main search box to appear
+await page.waitFor("#main");
+
 // type some text into an element that matches the selector #main
 await page.type('#main', 'Some text for main input');
 
-// click an element that matches the selector .active
-await page.click('.active');
-
-// wait for an element to appear that matches the selector  'input[type="text"]'
-await page.waitFor('input[type="text"]');
-
-// type a key on the keybaord
-await page.keyboard.press("Enter");
+// press `Enter` on the keyboard, triggering the search.
+await page.keyboard.press('Enter');
 ```
 
 In class, let's go over what is happening in these functions, and what [the query selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) are doing.  Then we'll modify the program `program.js` to search google for some text, and press enter to search.
@@ -182,171 +184,144 @@ document.querySelector('#selector.goes[here]');
 #### Infinitely following and watching youtube recommendations; watching each recommendation for 5 seconds:
 
 ```javascript
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
-async function program() {
-  const browser = await puppeteer.launch({headless: false, slowMo: 10});
+const browser = await puppeteer.launch({headless: false});
 
-  const page = await browser.newPage();
+const page = await browser.newPage();
 
-  await page.setViewport({width: 1280, height: 720});
+await page.setViewport({width: 1280, height: 720});
 
-  console.log('going to youtube')
-  await page.goto('https://www.youtube.com');
+console.log('going to youtube')
+await page.goto('https://www.youtube.com');
 
-  await page.type('#search', "I'm so scared :(");
+await page.click('form');
 
-  await page.keyboard.press('Enter');
+const searchBox = await page.waitForSelector('#search');
 
-  // wait for the link for the first video appear.
-  await page.waitFor('a#video-title');
-  // click the link for the first video appear.
-  await page.click('a#video-title');
+await page.type('#search', "I'm so scared :(");
 
-  const watchDuration = 5;
+await page.keyboard.press('Enter');
 
-  while(true) {
-    const videoTitle = await page.evaluate(function() {
-      return document.querySelector('h1 yt-formatted-string').innerText;
-    });
+// wait for the link for the first video appear.
+await page.waitForSelector('a#video-title');
 
-    console.log('watching video ' + videoTitle);
+console.log('found video, opening the first one.')
 
-    // watch the video for the watchDuration seconds
-    await page.waitFor(watchDuration * 1000);
+// click the link for the first video appear.
+await page.click('a#video-title');
 
-    await page.waitFor('#related #items #contents a');
+const watchDuration = 5;
 
-    await page.click('#related #items #contents a');
+while(true) {
+  await page.waitFor('h1 yt-formatted-string');
 
-  }
-}
-
-program();
-```
-
-#### Logging into facebook and posting about wanting a cat.  The type of cat is randomly selected:
-
-```javascript
-const puppeteer = require('puppeteer');
-
-function randomElementFromArray(array) {
-  const randomIndex = Math.floor(Math.random() * array.length);
-
-  return array[randomIndex];
-}
-
-async function loginToFacebook(page, email, password) {
-  await page.goto('https://www.facebook.com');
-
-  // enter email address and password
-  await page.type('input[type="email"]', email);
-  await page.type('input[type="password"]', password);
-
-  await page.click('input[type="submit"]');
-
-  // give page time to load
-  await page.waitFor(5000);
-
-  // click on page to get rid of message
-  await page.mouse.click(1000, 1000);
-}
-
-async function program() {
-  const browser = await puppeteer.launch({
-    headless: false,
-    slowMo: 10
+  const videoTitle = await page.evaluate(function() {
+    return document.querySelector('h1 yt-formatted-string').innerText;
   });
 
-  const context = await browser.createIncognitoBrowserContext();
-  const page = await context.newPage();
+  console.log('watching video ' + videoTitle);
 
-  await page.setViewport({
-    width: 1280,
-    height: 720
-  });
+  // watch the video for the watchDuration seconds
+  await page.waitFor(watchDuration * 1000);
 
-  const email = "PUT_A_FACEBOOK_EMAIL_HERE";
-  const password = "PUT_THE_FACEBOOK_PASSWORD_HERE";
+  await page.waitForSelector('#related #items #contents a');
 
-  await loginToFacebook(page, email, password);
+  await page.click('#related #items #contents a');
 
-  const postBoxSelector = 'textarea';
-  await page.waitFor(postBoxSelector);
-
-  // open the post box
-  console.log('clicking to open post box');
-  await page.click(postBoxSelector);
-
-  // select a random cat to want
-  const cats = ["Kurilian Bobtail", "LaPerm", "Lykoi", "Maine Coon", "Manx", "Mekong Bobtail", "Minskin", "Munchkin"]
-  const randomCat = randomElementFromArray(cats)
-
-  console.log('posting about a cat ' + randomCat);
-  await page.keyboard.type("I want a " + randomCat + ' cat.');;
-
-  console.log('clicking to post');
-  // click the post button
-  await page.waitFor('[data-testid="react-composer-post-button"]');
-  await page.click('[data-testid="react-composer-post-button"]');
 }
-
-program();
 ```
 
-#### Logging onto Facebook and sending a message to the first person on facebook messenger:
+#### Opening facebook, manually logging in, and sending a message to the first person on facebook messenger:
 
 ```javascript
 
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
-async function loginToFacebook(page, email, password) {
-  await page.goto('https://www.facebook.com');
+const browser = await puppeteer.launch({
+  headless: false,
+  slowMo: 10
+});
 
-  // enter email address and password
-  await page.type('input[type="email"]', email);
-  await page.type('input[type="password"]', password);
+const context = await browser.createIncognitoBrowserContext();
+const page = await context.newPage();
 
-  await page.click('input[type="submit"]');
+await page.goto('https://www.facebook.com');
 
-  // give page time to load
-  await page.waitFor(5000);
+await page.setViewport({
+  width: 1280,
+  height: 720
+});
 
-  // click on page to get rid of message
-  await page.mouse.click(1000, 1000);
-}
+console.log('open the browser window, and login to facebook:');
 
-async function program() {
-  const browser = await puppeteer.launch({
-    headless: false,
-    slowMo: 10
-  });
+// wait for the facebook messenger link to appear.
+const messengerLink = await page.waitForSelector('[data-testid=left_nav_item_Messenger]');
 
-  const context = await browser.createIncognitoBrowserContext();
-  const page = await context.newPage();
+// let the page load
+await page.waitForTimeout(3000);
 
-  await page.setViewport({
-    width: 1280,
-    height: 720
-  });
+// click the messenger link.
+await messengerLink.click();
 
-  const email = "PUT_A_FACEBOOK_EMAIL_HERE";
-  const password = "PUT_THE_FACEBOOK_PASSWORD_HERE";
+console.log('opened messenger link');
 
-  await loginToFacebook(page, email, password);
+// wait for a chat to be opened.
+await page.waitForSelector("[aria-label='New message']");
 
-  console.log('opening messenger');
-  await page.click('a[data-testid="left_nav_item_Messenger"]');
+await page.keyboard.type('Hi!  Hows it going today?', {delay: 10});
+await page.keyboard.press('Enter');
 
-  // wait for 2 seconds
-  await page.waitFor(2000);
+// wait 5 seconds before sending another message.
+await page.waitForTimeout(5000);
 
-  console.log('typing a message');
-  await page.keyboard.type('Hey!  so nice to see you on here :)');
+await page.keyboard.type('Aw, ok.  Lets chat another day!', {delay: 20});
+await page.keyboard.press('Enter');
+```
 
-  console.log('pressing enter');
-  await page.keyboard.press('Enter');
-}
+#### Opening twitter, manually logging in, and posting a couple messages:
 
-program();
+```javascript
+import puppeteer from 'puppeteer';
+
+const browser = await puppeteer.launch({
+  headless: false,
+  slowMo: 10
+});
+
+const context = await browser.createIncognitoBrowserContext();
+const page = await context.newPage();
+
+await page.goto('https://www.twitter.com');
+
+await page.setViewport({
+  width: 1280,
+  height: 720
+});
+
+console.log('open the browser window, and login to twitter:');
+
+// wait for the facebook messenger link to appear.
+const messengerContainer = await page.waitForSelector('.DraftEditor-editorContainer');
+
+console.log('found messenger container, clicking.');
+
+await messengerContainer.click();
+// const messengerLink = await page.waitForSelector('[data-testid=left_nav_item_Messenger]');
+
+await page.keyboard.type('I love this site? But how do I use it?', {delay: 100});
+
+const tweetButton = await page.waitForSelector('a[data-testid=addButton]');
+
+await tweetButton.click();
+
+// add another tweet dialog comes up.  lets wait a few seconds.
+console.log('waiting 3 seconds');
+await page.waitForTimeout(3000);
+
+console.log('typing a second tweet');
+await page.keyboard.type('Im tired.  lets try again tomorrow :', { delay: 100});
+
+const tweetAgainButton = await page.waitForSelector('div[data-testid=tweetButton]')
+await tweetAgainButton.click();
 ```
