@@ -37,7 +37,7 @@ __Readings for next week__:
 __Assignment__:
 * Install node.js on your computer (download it [here](https://nodejs.org/en/download/)).  Verify it is installed by [opening the terminal](https://www.idownloadblog.com/2019/04/19/ways-open-terminal-mac/) and running the command `node -v`
 
-### Week 2: Obfuscation [September 9, 2020] 🎩
+### Week 2: Obfuscation [September 16, 2020] 🎩
 
 __In class lecture:__ How can we trick systems of identification? A history of surveillance systems; a survey of methods of population tracking and control by nation-states and corporations; a look at projects that try to mislead such information gathering by producing false data.
 
@@ -71,7 +71,7 @@ __References__:
 * [URME Surveillance](http://www.urmesurveillance.com/)
 * [Invisible](https://deweyhagborg.com/projects/invisible)
 
-### Week 3: Simulation [September 16, 2020] 🤖
+### Week 3: Simulation [September 23, 2020] 🤖
 
 __In class lecture:__ What happens when identity becomes reproducible? Case studies of online sock-puppetry, astro-turfing, and Sybil attacks. A future look towards the implications of AI-based impersonation.
 
@@ -97,7 +97,7 @@ __References__:
 * [seebotschat](https://www.youtube.com/watch?v=FkbBU1BiW8c)
 * [Francis Tseng: Humans of Simulated New York](https://frnsys.com/hosny/)
 
-### Week 4: Self-Reinvention [September 23, 2020] 🔄
+### Week 4: Self-Reinvention [September 30, 2020] 🔄
 
 __In class lecture:__ To what degree is personal change possible? Psychology of personality, habit formation, and behavioural change theories. Individual vs. cultural vs. organizational vs. national identity.
 
@@ -122,7 +122,7 @@ __References__:
 * [Max Hawkins: Randomized Living](https://maxhawkins.me/work/randomized_living)
 * [Chris Landreth: Bingo](https://www.youtube.com/watch?v=4kACHU5eSwQ)
 
-### Week 5: Multiplication [September 30, 2020] 👥
+### Week 5: Multiplication [October 7, 2020] 👥
 
 __In class lecture:__ Can we live with many identities, and what do they allow us? A history of personal pseudonyms and collective pseudonyms; a survey of the cypherpunk movement and intellectual foundations of cryptocurrencies. 
 
@@ -144,7 +144,7 @@ __References__:
 * [Taylor Pearson: The Blockchain Man](https://www.ribbonfarm.com/2017/10/10/the-blockchain-man/)
 * [Lou Keep: The Meridian of Her Greatness](https://samzdat.com/2017/06/01/the-meridian-of-her-greatness/)
 
-### Week 6: Finals [October 7, 2020] ✌️
+### Week 6: Finals [October 14, 2020] ✌️
 
 __In class:__ Final project critiques
 
