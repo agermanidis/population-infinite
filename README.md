@@ -107,7 +107,7 @@ __Assignment:__ Create your own, 2020 interpretation of one of the performances 
 
 __Reading for next week__:
 * Marco Deseriis, Improper Names, Chapter 3 (Link in Google Drive)
-* [Lisa Nakamura, "Race In/For Cyberspace: Identity Tourism and Racial Passing on the Internet"](https://pdfs.semanticscholar.org/3531/da9329d2b7158bd697e1aa8ef073f78de6fb.pdf?_ga=2.183451366.1956539579.1567370805-2117625465.1567370805)
+* [Lisa Nakamura, "Race In/For Cyberspace: Identity Tourism and Racial Passing on the Internet"](https://smg.media.mit.edu/library/nakamura1995.html)
 
 __References__:
 
@@ -136,7 +136,7 @@ __References__:
 * [Andreas Pfitzmann and Marit Hansen: Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management](http://www.maroki.de/pub/dphistory/2010_Anon_Terminology_v0.34.pdf)
 * [/r/Tulpas: Intelligent companions imagined into existence](http://reddit.com/r/tulpas)
 * [David Eagleman: Incognito](https://www.amazon.com/Incognito-Secret-Lives-David-Eagleman/dp/0307389928)
-* [Lisa Nakamura: Identity Tourism and Racial Passing on the Internet](http://faculty.humanities.uci.edu/poster/syllabi/readings/nakamura.html)
+* [Lisa Nakamura: Identity Tourism and Racial Passing on the Internet](https://smg.media.mit.edu/library/nakamura1995.html)
 * [Neal Stephenson: Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash)
 * [Robert Axelrod: The Evolution of Cooperation](https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation)
 * [Scott Alexander: Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
